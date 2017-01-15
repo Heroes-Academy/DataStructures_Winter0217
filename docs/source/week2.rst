@@ -2,18 +2,23 @@ Week 2: Complexity
 ==================
 
 Summary
-^^^^^^^
+-------
 
-We discussed the basics of complexity and why it matters.  The homework that was assigned in class was to build a basic data structure.  It has the necessary functions that we will be looking at in the coming weeks. 
+Today, we are going through the ideas underlying complexity.  
+We will look at some python code and how to time it to test for speed. 
 
-Homework
-^^^^^^^^
+For fun, we will also be looking at this in the context of finding prime numbers!
 
-1. Keep working on practicing Python syntax on hackerrank.com
-2. Flesh out the skeleton code in wrapper_exercise.py
+
+Exercises
+---------
+
+1. :doc:`How to time things <exercises/week2_timing>`
+2. :doc:`Prime Numbers <exercises/week2_sieve>`
+3. Bonus: :doc:`Python structure basics <exercises/week2_pythonstructs`
 
 Lecture Slides
-^^^^^^^^^^^^^^
+--------------
 
 .. raw:: html
 
