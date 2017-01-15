@@ -1,4 +1,4 @@
-Week 2: Complexity
+[Week 2] Complexity
 ==================
 
 Summary
@@ -15,7 +15,7 @@ Exercises
 
 1. :doc:`How to time things <exercises/week2_timing>`
 2. :doc:`Prime Numbers <exercises/week2_sieve>`
-3. Bonus: :doc:`Python structure basics <exercises/week2_pythonstructs`
+3. Bonus: :doc:`Python structure basics <exercises/week2_pythonstructs>`
 
 Lecture Slides
 --------------
