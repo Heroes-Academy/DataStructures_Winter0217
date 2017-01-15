@@ -20,15 +20,16 @@ The easiest way is to use a double loop and check for "primeness"
         # loop over the numbers
         for first_number in range(2, max_number+1):
             # create a boolean to save the result
-            is_prime = False
+            is_prime = True
             # now go over all numbers smaller than it
             for second_number in range(2, first_number):
                 if first_number % second_number == 0:
                     is_prime = False
-                else:
-                    is_prime = True
+        
             if is_prime:
                 found_primes.append(first_number)
+                
+        return found_primes
 
 What is slow about this solution?  What could be fixed? What can be taken out?
 
@@ -73,9 +74,9 @@ The description is fairly simple:
     def run(max_number):
         # create list of all numbers
         numbers = []
-        for i in range(2, max_number):
+        for i in range(max_number):
             numbers.append(i)
-        
+        current_number = 2
         while current_number < max_number:
             
             # go through and mark 2*current_number, 3*current_number, etc
@@ -87,7 +88,7 @@ The description is fairly simple:
             
             # find the next "current_number"
             finding_next = True
-            while finding_next:
+            while finding_next and current_number < max_number:
                 current_number += 1
                 if numbers[current_number] != -1:
                     finding_next = False
