@@ -1,4 +1,4 @@
-Week 3: Recursion
+[Week 3] Recursion
 =================
 
 
@@ -8,6 +8,11 @@ Exercises
 ---------
 
 1. :doc:`Recursion exercises <exercises/week3_recursion>`
+
+Bonus
+-----
+
+Solve some of the problems at `Project Euler <https://projecteuler.net/archives>`_.
 
 Extra Resources
 ---------------

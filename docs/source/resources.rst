@@ -5,7 +5,7 @@ General Resources
 Awesome stuff
 ^^^^^^^^^^^^^
 
-1. Project Euler
+1. `Project Euler <https://projecteuler.net/archives>`_
 
 Online Books
 ^^^^^^^^^^^^
