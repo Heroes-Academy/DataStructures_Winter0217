@@ -2,6 +2,10 @@ General Resources
 =================
 
 
+Awesome stuff
+^^^^^^^^^^^^^
+
+1. Project Euler
 
 Online Books
 ^^^^^^^^^^^^
