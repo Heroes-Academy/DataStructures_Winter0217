@@ -2,12 +2,11 @@ Week 3: Recursion
 =================
 
 Summary
-^^^^^^^
+-------
 
-We had a snow day!  We were going to start learning about recursion, but we will push it into next week's lecture.  It would be good if you did the homework (listed below) before then.  Also, you should play with the turtle below and make your own recursive turtle.
 
-Homework
-^^^^^^^^
+Take Home Exercises
+-------------------
 
 Read through the lecture in the slides below.  Recursive functions are functions which
 have two cases: a base case and the recursive case.  Consider the following:
@@ -31,7 +30,7 @@ Your homework is to write a function like this for the fibonacci series and for 
 For a bonus, there is a `recursion section at hackerrank under the Functional Programming section <https://www.hackerrank.com/domains/fp/recursion>`_.
 
 Extra Resources
-^^^^^^^^^^^^^^^
+---------------
 
 You will have the best luck if you run the following trinket full screen.
 
@@ -56,7 +55,7 @@ You will have the best luck if you run the following trinket full screen.
    <iframe src="https://trinket.io/embed/python/1c38aa544b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Lecture Slides
-^^^^^^^^^^^^^^
+--------------
 
 .. raw:: html
 
