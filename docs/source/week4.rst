@@ -1,27 +1,20 @@
 Week 4: Linked Lists
 ====================
 
+Today we are covering linked lists!  We will look at what they are, how they 
+function conceptually, and how a simple one can be implemented. 
 
-Summary
--------
+Exercises
+---------
 
-Because of the snow storm last week, this week we went over recursion and the basics of linked lists.
+We will go over things on the slide and in the exercises together.
 
-Homework
---------
+1. :doc:`Test-Driven Code, Introductions, and Refreshers <exercises/week4_intro>`
+2. :doc:`Linked Lists, Part 1 <exercises/week4_linkedlist_part1>`
+3. :doc:`Linked Lists, Part 2 <exercises/week4_listedlist_part2>`
 
-1. You should work through your own recursive turtles.
-2. You should also solve the recursion problems in the slides.
-    - Those slides are on the week 3 page.
+Take home exercise to come either before, during, or after class. 
 
-Optional but Recommended:
-- It is recommended that you also work through the LinkedList class and get a basic working example.
-
-For a challenge:
-- try to do the exercises found on the `Think CS python book <http://www.openbookproject.net/thinkcs/python/english3e/recursion.html#exercises>`_
-
-Additional Resources
---------------------
 
 Linked Lists
 ^^^^^^^^^^^^
