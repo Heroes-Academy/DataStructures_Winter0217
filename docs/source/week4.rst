@@ -1,4 +1,4 @@
-Week 4: Linked Lists
+[Week 4] Linked Lists
 ====================
 
 Today we are covering linked lists!  We will look at what they are, how they 
@@ -10,8 +10,8 @@ Exercises
 We will go over things on the slide and in the exercises together.
 
 1. :doc:`Test-Driven Code, Introductions, and Refreshers <exercises/week4_intro>`
-2. :doc:`Linked Lists, Part 1 <exercises/week4_linkedlist_part1>`
-3. :doc:`Linked Lists, Part 2 <exercises/week4_listedlist_part2>`
+2. :doc:`Linked Lists, Part 1 <exercises/week4_linkedlist_1>`
+3. :doc:`Linked Lists, Part 2 <exercises/week4_linkedlist_2>`
 
 Take home exercise to come either before, during, or after class. 
 
