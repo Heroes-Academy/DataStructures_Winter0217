@@ -26,6 +26,10 @@ Take a look at the above code.  Let's say we want to just add people to the back
 of the line directly without having to have them go and talk to everyone in the line just to
 find the back!
 
+You can do thsi by keeping a second variable. Not just the first person, but
+also the last person! 
 
-        
-        
+So, create a variable for the last person inside the init function. 
+Then, whenever a new person comes in, they become the new last person. 
+Now, instead of telling the first person to handle the new person,
+you can just keep telling the LAST person to handle the next person. 
