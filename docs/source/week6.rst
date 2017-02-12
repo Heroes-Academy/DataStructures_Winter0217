@@ -9,7 +9,7 @@ Today, we are going through the slides first.
 Then, when we are done with the lecture, there is a series of practice examples to go through:
 
 
-* :doc:`Week 6 Stack and Queue examples! <exercises/week6_stacksqueues1>`
+* :doc:`Week 6 Stack and Queue examples! <exercises/week6_stacksqueues/week6_stacksqueues1>`
 
 
 Lecture Slides
