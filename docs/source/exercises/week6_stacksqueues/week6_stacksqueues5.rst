@@ -94,24 +94,28 @@ Then, :code:`starting_n` is pushed onto the stack::
 When you write yours for 1-5, you can start at that point. 
 
 Loop 0::
+
     next_n = 6
     # remember, add next_n-1 THEN next_n-2
     stack = [5, 4]
     total = 0
 
 Loop 1::
+
     next_n = 4
     # remember, add next_n-1 THEN next_n-2
     stack = [5, 3, 2] 
     total = 0
 
 Loop 2::
+
     next_n = 2
     # remember, add next_n-1 THEN next_n-2
     stack = [5, 3, 1, 0] 
     total = 0
     
 Loop 3::
+
     next_n = 0
     # now, it is 0, so add it to total. except adding 0 is a waste! oh well.. 
     # maybe we could have made it faster and checked for 0 BEFORE adding
@@ -119,126 +123,147 @@ Loop 3::
     total = 0 + 0
     
 Loop 4::
+
     next_n = 1
     # now it is a 1!  So add it to total
     stack = [5, 3] 
     total = 0 + 1 = 1
 
 Loop 5::
+
     next_n = 3
     # remember, add next_n-1 THEN next_n-2
     stack = [5, 2, 1] 
     total = 1
 
 Loop 6::
+
     next_n = 1
     # a 1 adds into total
     stack = [5, 2]
     total = 2
 
 Loop 7::
+
     next_n = 2
     # a 1 adds into total
     stack = [5, 1, 0]
     total = 2
 
 Loop 8::
+
     next_n = 0
     # a 0 adds into total
     stack = [5, 1]
     total = 2 + 0
     
 Loop 9::
+
     next_n = 1
     # a 1 adds into total
     stack = [5]
     total = 2 + 1
     
 Loop 10::
+
     next_n = 5
     # 5 is removed from the stack and adds 4, 3
     stack = [4, 3]
     total = 3
     
 Loop 11::
+
     next_n = 3
     # 3 is removed from the stack, adds 2, 1
     stack = [4, 2, 1]
     total = 3
     
 Loop 12::
+
     next_n = 1
     # a 1 adds into total
     stack = [4, 2]
     total = 3 + 1 
     
 Loop 13::
+
     next_n = 2
     # a 2 is removed from the stack, adds 1, 0
     stack = [4, 1, 0]
     total = 4
     
 Loop 14::
+
     next_n = 0
     # a 0 adds into total
     stack = [4, 1]
     total = 4
 
 Loop 15::
+
     next_n = 1
     # a 1 adds into total
     stack = [4]
     total = 4 + 1
 
 Loop 16::
+
     next_n = 4
     # a 4 is removed from the stack, adds 3, 2
     stack = [3, 2]
     total = 5
 
 Loop 17::
+
     next_n = 2
     # a 2 is removed from the stack, adds 1, 0
     stack = [3, 1, 0]
     total = 5
 
 Loop 18::
+
     next_n = 0
     # a 0 is added into total
     stack = [3, 1]
     total = 5 + 0
     
 Loop 19::
+
     next_n = 1
     # a 1 is added into total
     stack = [3]
     total = 5 + 1
 
 Loop 20::
+
     next_n = 3
     # a 3 is removed from the stack, adds 2, 1
     stack = [2, 1]
     total = 6
 
 Loop 21::
+
     next_n = 1
     # a 1 is added to the total
     stack = [2]
     total = 6 + 1
     
 Loop 22::
+
     next_n = 2
     # a 2 is removed from the stack, adds 1, 0
     stack = [1,0]
     total = 7
 
 Loop 23::
+
     next_n = 0
     # a 0 is added to the total
     stack = [1]
     total = 7 + 0
     
 Loop 25::
+
     next_n = 1
     # a 1 is added to the total
     stack = []
