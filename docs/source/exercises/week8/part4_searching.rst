@@ -35,12 +35,9 @@ First, let's write a function which maintains the search:
             next_states = current_state.get_next_states()
             
             to_search.extend(next_states)
-            
 
-What's missing from this?  
-
-1. A test for completion
-2. A test for duplicates
+Be careful if you run this. Currently, it will run forever! This is because
+we are not searching for duplicates, and we are not testing for success!
 
 
 Testing for existance
@@ -53,36 +50,59 @@ By doing this, we can :code:`hash` them and use them in :code:`sets`.
 .. code-block:: python
     :linenos:
     
-    state_var = (0,0,0)
-    
-    seen_states = set()
-    
-    if state_var not in seen_states:
-        print("not seen yet")
-        seen_states.add(state_var)
         
-    if state_var in seen_states:
-        print("already saw this!")
+    from collections import deque
+    
+    def search(exit_on_solution=False):
+    
+        root = MCState.root()
         
-We need to do this with our states. But we should keep it ouside of our class~
-Instead, the :code:`seen_states` set should go inside the search function above. 
+        to_search = deque()
+        seen_states = set()
+        solutions = list()
+        
+        to_search.append(root)
+        
+        while len(to_search) > 0:
+            current_state = to_search.pop()
+            if current_state.is_solution():
+                ## this is a successful state!
+                ## the state vars should be (0,0,0)
+                if exit_on_solution:
+                    ## we just return the state
+                    return current_state
+                else:
+                    ## we are just saving it this time
+                    solutions.append(current_state)
+            
+            next_states = current_state.get_next_states()
+            
+            for possible_next_state in next_states:
+                possible_state_vars = possible_next_state.state_vars
+                if possible_state_vars not in seen_states:
+                    # the state variables haven't been seen yet
+                    # so we add the state itself into the to_search deque
+                    to_search.append(possible_next_state)
 
-Do the following when the function creates the new states:
+                    # now that we have "seen" the state, we add the state vars
+                    # to the set!
+                    seen_states.add(possible_state_vars)
 
-    - loop over them and check to see if they are in the set yet
-        + if they are, do not add them into :code:`to_search`
-        + if they aren't, add them to :code:`to_search` AND to the set :code:`seen_states`
+        print("Found {} solutions".format(len(solutions)))
+        return solutions
+
+Testing for Success
+------------------
+
+The search above uses a function :code:`current_state.is_solution()`.  Write this
+function inside the :code:`MCState` class so that it returns True **only** if the
+state vars are :code:`(0,0,0)`.
 
 
-Task 1
-^^^^^^
+Thinking Exercise
+-----------------
 
-Add a function to the class to test for it being completed.  Test for this on each
-of the states in the search loop.  If something is completed, return it. 
-
-
-Depth vs Breadth First Search as Stacks and Queues
---------------------------------------------------
+Think about how the search is currently moving. 
 
 In the current implementation, what is the order of states that will be searched?
 
@@ -90,9 +110,5 @@ The way to answer that is to think about what :code:`to_search` is doing.
 It is taking the right most item (with the :code:`pop` function) and searching
 its children.  It is putting the children onto the right as well (with :code:`extend`).
 
-
-
-
-
-            
-        
+You should try drawing out a tree on paper where each node is one of the states. 
+This is really helpful in visualizing this. 

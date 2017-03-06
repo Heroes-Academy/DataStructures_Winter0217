@@ -140,7 +140,7 @@ it is added to the list of states.
             
         
 
-
+You can now do the extensions to the exercise below, or go on to :doc:`Part 4 <part3_searching>`
 
 Exercise Extension: Better printing of states
 ---------------------------------------------
@@ -197,3 +197,6 @@ For this extension, convert things that can be properties.  For example:
     root = MCState.root()
     
     print(root.possible_moves)
+    
+    
+    

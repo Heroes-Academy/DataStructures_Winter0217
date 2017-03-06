@@ -52,3 +52,6 @@ for constructing the root state now belongs **inside** the state.
             cls("what should go here")
 
     root_state = MCState.root()
+    
+    
+:doc:`Go to Part 3, Transitions, Next <part3_transitions>`
