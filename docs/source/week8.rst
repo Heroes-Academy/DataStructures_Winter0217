@@ -1,4 +1,4 @@
-Week 8: Problem Solving and Searching
+[Week 8] Problem Solving and Searching
 =====================================
 
 
@@ -62,4 +62,4 @@ You can also look through these links and see if there is something you'd
 like to try:
 
 1. `River Crossing Puzzles <https://en.wikipedia.org/wiki/River_crossing_puzzle>`_
-2. `Mathematical Games <https://en.wikipedia.org/wiki/Mathematical_game>`
+2. `Mathematical Games <https://en.wikipedia.org/wiki/Mathematical_game>`_

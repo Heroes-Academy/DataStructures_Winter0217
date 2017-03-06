@@ -1,4 +1,4 @@
-Week 7: Binary Trees
+[Week 7] Binary Trees
 =====================
 
 
