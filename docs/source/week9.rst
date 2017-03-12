@@ -196,7 +196,7 @@ You will give a presentation to your parents when we meet next week.
 You will have time at the beginning of class to finish things up, but your presentation
 is due to me that Friday. 
 
-Here is the presentation template:
+`Here is the presentation template <https://docs.google.com/presentation/d/1BhVcGhiUifG9GgATvY1EfhM-_MC87_2DALh5AysicZw/edit?usp=sharing>`_:
 
 .. raw:: html
 
