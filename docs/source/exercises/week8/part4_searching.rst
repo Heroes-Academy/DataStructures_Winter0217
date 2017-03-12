@@ -40,7 +40,7 @@ Be careful if you run this. Currently, it will run forever! This is because
 we are not searching for duplicates, and we are not testing for success!
 
 
-Testing for existance
+Testing for existence
 ---------------------
 
 We want a uniqueness test that lets us see if something has been visited before.
