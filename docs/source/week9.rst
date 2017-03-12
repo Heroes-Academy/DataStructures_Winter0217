@@ -182,9 +182,11 @@ Examples of Missionaries and Cannibals in iPython Notebooks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. raw:: html
+
     <script src="https://gist.github.com/braingineer/6c1bf90be76b5dbe01ef857ececbbb63.js"></script>
 
 .. raw:: html
+
     <script src="https://gist.github.com/braingineer/9ce5c8dcc6d4ac8bc8978c15414a269c.js"></script>
 
 Presentation Template
